@@ -1,0 +1,7 @@
+<div *ngIf="game" class="container">
+  <h2>{{ game.title }}</h2>
+  <img [src]="game.thumbnail" class="img-fluid" alt="{{ game.title }}">
+  <p><strong>Genre:</strong> {{ game.genre }}</p>
+  <p><strong>Platform:</strong> {{ game.platform }}</p>
+  <p><strong>Description:</strong> {{ game.description }}</p>
+</div>
